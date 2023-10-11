@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 500px;
+            width: 100%;
+            border: 2px;
+            padding: 0px 15px 0px 15px;
+        }
+        .sub{
+            height: 500px;
+            width: 422.4px;
+            border: 2px;
+            padding: 0px 15px 0px 15px;
+        }
+        .container{
+            height: 820px;
+            padding: 50px;
+            border: 2px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .row{
+            display: flex;
+            margin-right: -15px;
+            margin-left: -15px;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+<form class="main">
+    <div>
+    <label for="fname">Name:</label>
+    <input type="text" name="fname" id="fname">
+    </div>
+
+    <div>
+        <label for="mail">Email:</label>
+        <input type="email" name="mail" id="mail">
+    </div>
+
+    <div>
+        <label for="phno">Phone No.:</label>
+        <input type="tel" name="phno" id="phno">
+    </div>
+
+    <div>
+        <label for="list">Number of seats:</label>
+        <select id="list" name="list">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="NumofAt">Number of Attendee 2:</label>
+        <input type="text" id="NumofAt" name="NumofAt">
+    </div>
+
+    <div>
+        <label for="sub">Submit</label>
+        <input type="submit" value="sub">
+    </div>
+
+
+</form>
+</body>
+</html>
